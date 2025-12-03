@@ -4,6 +4,10 @@ Repository containing all major code used throughout the completion of my MSc En
 
 All glacier change simulations with OGGM were run on my personal Macbook Air, hence the functions in [SimCode.py](https://github.com/johncort/DissertationCode/blob/main/Modules/SimCodes.py) were designed to perform simulations in chunks, preventing issues with overloading and slowdown that seemed to arise if too many glaciers were passed to OGGM in one go. A demonstration of the running of these simulation functions in a notebook can be found [here](https://github.com/johncort/DissertationCode/blob/main/NotebookDemos/SimulationDemo.ipynb), wherein I demonstrate the chunk process on a small sample of glaciers. In this notebook I also demonstrate the use of [OGGM's ice thickness redistribution function](https://tutorials.oggm.org/stable/notebooks/tutorials/distribute_flowline.html), rerunning the simulations for select glaciers before processing their ice thickness and exporting for analysis in QGIS. 
 
+The raw annual output from volume simulations (including area and length change) is accessible here:\
+\
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17807108.svg)](https://doi.org/10.5281/zenodo.17807108)
+
 [OGGM v1.6.2 (latest release)](https://docs.oggm.org/en/latest/whats-new.html) was used for all simulations. For privacy, all filepaths have been replaced with 'custom_filepath'.
 OGGM's documentation can be found [here](https://docs.oggm.org/en/stable/) and helpful code for OGGM can be found in a series of informative notebooks [here](https://tutorials.oggm.org/stable/notebooks/welcome.html).
 
